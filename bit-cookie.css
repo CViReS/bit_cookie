@@ -1,0 +1,12 @@
+
+.bit-cookiewall {
+position: fixed;
+margin: 0 auto;
+}
+
+.bit-cookiewall .box{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 0 auto;
+}
