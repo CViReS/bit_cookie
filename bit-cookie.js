@@ -88,7 +88,7 @@ cookieWallDiv.setAttribute("class", "bit-cookiewall");
 //Fußzeile
 var fusszeile = document.createElement("p");
 fusszeile.setAttribute("class", "fusszeile");
-fusszeile.innerHTML ="<a target='_blank' href='"+datenschutz+"'>Datenschutzerklärung</a> | <a target='_blank' href='"+impressum+"'>Impressum</a>";
+fusszeile.innerHTML ="<a rel='noopener' target='_blank' href='"+datenschutz+"'>Datenschutzerklärung</a> | <a rel='noopener' target='_blank' href='"+impressum+"'>Impressum</a>";
 
   //Cookie Checkbox Erstellen
   var cookie_div_ess = document.createElement("label");
